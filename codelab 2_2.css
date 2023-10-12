@@ -1,0 +1,39 @@
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    resize: vertical;
+    margin-left: auto;
+    margin-right: auto; /* Membuat posisi menjadi di tengah */
+}
+
+button {
+    background-color: #023e8a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-right: auto; /* Membuat posisi menjadi di tengah */
+}
+
+textarea{
+    background-color: #ced4da;
+}
+.container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    justify-content: center;
+    width: 350px;
+    margin: 0 auto; /* Membuat posisi menjadi di tengah */
+}
+
+body{
+    background-color: #023e8a;
+}

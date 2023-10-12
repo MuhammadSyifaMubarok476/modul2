@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="codelab 2_2.css">
+</head>
+<body>
+    <div class="container">
+        <label for="name">Nama Lengkap:</label>
+        <textarea id="name" name="name" style="height: 45px"></textarea>
+        <label for="email">Email:</label>
+        <textarea id="email" name="email" style="height: 45px"></textarea>
+        <label for="Alamat">Alamat:</label>
+        <textarea id="Alamat" name="Alamat" style="height: 100px"></textarea>
+        <button onclick="Submission()">Submit</button>
+      <script>
+      function Submission(){
+          var nameValue = document.getElementById("name").value;
+          var emailValue = document.getElementById("email").value;
+          var alamatValue = document.getElementById("Alamat").value;
+      
+          if (nameValue === "" || emailValue === "" || alamatValue === "") {
+              alert("Anda harus mengisi data dengan lengkap !");
+          } else {
+              alert("Terdaftar");
+          }
+      }
+      </script>
+    </div>
+</body>
+</html>
